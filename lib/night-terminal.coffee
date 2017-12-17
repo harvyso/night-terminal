@@ -159,17 +159,17 @@ module.exports =
               title: 'Red'
               description: 'Red color used for terminal ANSI color set.'
               type: 'color'
-              default: '#555d65'
+              default: '#ff8787'
             green:
               title: 'Green'
               description: 'Green color used for terminal ANSI color set.'
               type: 'color'
-              default: '#555d65'
+              default: '#b2f2bb'
             yellow:
               title: 'Yellow'
               description: 'Yellow color used for terminal ANSI color set.'
               type: 'color'
-              default: '#555d65'
+              default: '#ffec99'
             blue:
               title: 'Blue'
               description: 'Blue color used for terminal ANSI color set.'
