@@ -28,8 +28,9 @@ You can toggle the terminal open/close by pressing <kbd>Ctrl</kbd>+<kbd>\`</kbd>
 | night-terminal:rename | Rename the active terminal. | –––––––––––– |
 
 ## Related Projects
-* [Night UI](https://github.com/saadq/night-ui)
-* [Night Syntax](https://github.com/saadq/night-syntax)
+- [Night UI](https://github.com/saadq/night-ui)
+- [Night Syntax](https://github.com/saadq/night-syntax)
+- [Hyper Night](https://github.com/saadq/hyper-night)
 
 ## License
 MIT
