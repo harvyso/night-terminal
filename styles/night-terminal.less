@@ -6,7 +6,10 @@
 @status-bar-height: 20px;
 @inactive-opacity: 0.5;
 
-.platformio-ide-terminal {
+.night-terminal {
+  .btn {
+    display: none;
+  }
   letter-spacing: normal;
   position: inherit;
 
@@ -65,6 +68,9 @@
       padding: 0 5px;
 
       > .terminal {
+        .btn {
+          display: none;
+        }
         display: -webkit-flex;
 
         flex-direction: column;
@@ -114,6 +120,7 @@
       line-height: @status-bar-height;
     }
     .icon-x {
+      display: none;
       color: #9da5b4;
       justify-content: flex-end;
     }

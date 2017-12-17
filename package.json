@@ -1,9 +1,9 @@
 {
-  "name": "platformio-ide-terminal",
-  "main": "./lib/platformio-ide-terminal",
-  "version": "2.7.0",
-  "description": "A terminal package for Atom, complete with themes, API and more for PlatformIO IDE. Fork of terminal-plus.",
-  "author": "Jeremy Ebneyamin",
+  "name": "night-terminal",
+  "main": "./lib/night-terminal",
+  "version": "0.0.0",
+  "description": "A minimalistic, monochrome Atom terminal",
+  "author": "Saad Quadri",
   "keywords": [
     "PlatformIO",
     "terminal-plus",
@@ -16,9 +16,15 @@
     "iterm",
     "iterm2",
     "console",
-    "powershell"
+    "powershell",
+    "night"
   ],
   "contributors": [
+    {
+      "name": "Saad Quadri",
+      "email": "saad@saadq.com",
+      "url": "http://saadq.com"
+    },
     {
       "name": "Ivan Kravets",
       "email": "me@ikravets.com",
@@ -30,8 +36,8 @@
       "url": "http://platformio.org"
     }
   ],
-  "homepage": "https://atom.io/packages/platformio-ide-terminal",
-  "repository": "https://github.com/platformio/platformio-atom-ide-terminal",
+  "homepage": "https://atom.io/packages/night-terminal",
+  "repository": "https://github.com/saadq/night-terminal",
   "license": "MIT",
   "engines": {
     "atom": ">=1.12.2 <2.0.0"

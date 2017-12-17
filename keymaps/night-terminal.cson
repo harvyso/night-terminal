@@ -1,0 +1,25 @@
+'.platform-darwin atom-workspace':
+  'cmd-shift-t': 'night-terminal:new'
+  'cmd-shift-j': 'night-terminal:prev'
+  'cmd-shift-k': 'night-terminal:next'
+  'cmd-shift-x': 'night-terminal:close'
+  'cmd-alt-f': 'night-terminal:focus'
+  'ctrl-enter': 'night-terminal:insert-selected-text'
+  'ctrl-`': 'night-terminal:toggle'
+
+'.platform-linux atom-workspace, .platform-win32 atom-workspace':
+  'alt-shift-t': 'night-terminal:new'
+  'alt-shift-j': 'night-terminal:prev'
+  'alt-shift-k': 'night-terminal:next'
+  'alt-shift-x': 'night-terminal:close'
+  'ctrl-enter': 'night-terminal:insert-selected-text'
+  'ctrl-`': 'night-terminal:toggle'
+  'ctrl-alt-f': 'night-terminal:focus'
+
+'.platform-darwin .night-terminal .terminal':
+  'cmd-c': 'night-terminal:copy'
+  'cmd-v': 'night-terminal:paste'
+
+'.platform-linux .night-terminal .terminal, .platform-win32 .night-terminal .terminal':
+  'alt-v': 'night-terminal:paste'
+  'alt-c': 'night-terminal:copy'

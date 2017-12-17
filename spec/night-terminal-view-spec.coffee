@@ -1,4 +1,4 @@
-PlatformIOTerminalView = require '../lib/platformio-ide-terminal-view'
+PlatformIOTerminalView = require '../lib/night-terminal-view'
 
 describe "PlatformIOTerminalView", ->
   it "has one valid test", ->

@@ -44,7 +44,7 @@ module.exports =
           default: true
         runInsertedText:
           title: 'Run Inserted Text'
-          description: 'Run text inserted via `platformio-ide-terminal:insert-text` as a command? **This will append an end-of-line character to input.**'
+          description: 'Run text inserted via `night-terminal:insert-text` as a command? **This will append an end-of-line character to input.**'
           type: 'boolean'
           default: true
         selectToCopy:
@@ -140,23 +140,6 @@ module.exports =
           type: 'string'
           default: 'standard'
           enum: [
-            'standard',
-            'inverse',
-            'linux',
-            'grass',
-            'homebrew',
-            'man-page',
-            'novel',
-            'ocean',
-            'pro',
-            'red',
-            'red-sands',
-            'silver-aerogel',
-            'solarized-dark',
-            'solid-colors',
-            'dracula',
-            'one-dark',
-            'christmas',
             'predawn'
           ]
     ansiColors:
@@ -176,37 +159,37 @@ module.exports =
               title: 'Red'
               description: 'Red color used for terminal ANSI color set.'
               type: 'color'
-              default: '#CD0000'
+              default: '#555d65'
             green:
               title: 'Green'
               description: 'Green color used for terminal ANSI color set.'
               type: 'color'
-              default: '#00CD00'
+              default: '#555d65'
             yellow:
               title: 'Yellow'
               description: 'Yellow color used for terminal ANSI color set.'
               type: 'color'
-              default: '#CDCD00'
+              default: '#555d65'
             blue:
               title: 'Blue'
               description: 'Blue color used for terminal ANSI color set.'
               type: 'color'
-              default: '#0000CD'
+              default: '#868e96'
             magenta:
               title: 'Magenta'
               description: 'Magenta color used for terminal ANSI color set.'
               type: 'color'
-              default: '#CD00CD'
+              default: '#555d65'
             cyan:
               title: 'Cyan'
               description: 'Cyan color used for terminal ANSI color set.'
               type: 'color'
-              default: '#00CDCD'
+              default: '#555d65'
             white:
               title: 'White'
               description: 'White color used for terminal ANSI color set.'
               type: 'color'
-              default: '#E5E5E5'
+              default: '#555d65'
         zBright:
           type: 'object'
           order: 2
@@ -215,42 +198,42 @@ module.exports =
               title: 'Bright Black'
               description: 'Bright black color used for terminal ANSI color set.'
               type: 'color'
-              default: '#7F7F7F'
+              default: '#555d65'
             brightRed:
               title: 'Bright Red'
               description: 'Bright red color used for terminal ANSI color set.'
               type: 'color'
-              default: '#FF0000'
+              default: '#555d65'
             brightGreen:
               title: 'Bright Green'
               description: 'Bright green color used for terminal ANSI color set.'
               type: 'color'
-              default: '#00FF00'
+              default: '#555d65'
             brightYellow:
               title: 'Bright Yellow'
               description: 'Bright yellow color used for terminal ANSI color set.'
               type: 'color'
-              default: '#FFFF00'
+              default: '#555d65'
             brightBlue:
               title: 'Bright Blue'
               description: 'Bright blue color used for terminal ANSI color set.'
               type: 'color'
-              default: '#0000FF'
+              default: '#555d65'
             brightMagenta:
               title: 'Bright Magenta'
               description: 'Bright magenta color used for terminal ANSI color set.'
               type: 'color'
-              default: '#FF00FF'
+              default: '#555d65'
             brightCyan:
               title: 'Bright Cyan'
               description: 'Bright cyan color used for terminal ANSI color set.'
               type: 'color'
-              default: '#00FFFF'
+              default: '#555d65'
             brightWhite:
               title: 'Bright White'
               description: 'Bright white color used for terminal ANSI color set.'
               type: 'color'
-              default: '#FFFFFF'
+              default: '#555d65'
     iconColors:
       type: 'object'
       order: 5
@@ -306,41 +289,41 @@ module.exports =
       properties:
         customText1:
           title: 'Custom text 1'
-          description: 'Text to paste when calling platformio-ide-terminal:insert-custom-text-1, $S is replaced by selection, $F is replaced by file name, $D is replaced by file directory, $L is replaced by line number of cursor, $$ is replaced by $'
+          description: 'Text to paste when calling night-terminal:insert-custom-text-1, $S is replaced by selection, $F is replaced by file name, $D is replaced by file directory, $L is replaced by line number of cursor, $$ is replaced by $'
           type: 'string'
           default: ''
         customText2:
           title: 'Custom text 2'
-          description: 'Text to paste when calling platformio-ide-terminal:insert-custom-text-2'
+          description: 'Text to paste when calling night-terminal:insert-custom-text-2'
           type: 'string'
           default: ''
         customText3:
           title: 'Custom text 3'
-          description: 'Text to paste when calling platformio-ide-terminal:insert-custom-text-3'
+          description: 'Text to paste when calling night-terminal:insert-custom-text-3'
           type: 'string'
           default: ''
         customText4:
           title: 'Custom text 4'
-          description: 'Text to paste when calling platformio-ide-terminal:insert-custom-text-4'
+          description: 'Text to paste when calling night-terminal:insert-custom-text-4'
           type: 'string'
           default: ''
         customText5:
           title: 'Custom text 5'
-          description: 'Text to paste when calling platformio-ide-terminal:insert-custom-text-5'
+          description: 'Text to paste when calling night-terminal:insert-custom-text-5'
           type: 'string'
           default: ''
         customText6:
           title: 'Custom text 6'
-          description: 'Text to paste when calling platformio-ide-terminal:insert-custom-text-6'
+          description: 'Text to paste when calling night-terminal:insert-custom-text-6'
           type: 'string'
           default: ''
         customText7:
           title: 'Custom text 7'
-          description: 'Text to paste when calling platformio-ide-terminal:insert-custom-text-7'
+          description: 'Text to paste when calling night-terminal:insert-custom-text-7'
           type: 'string'
           default: ''
         customText8:
           title: 'Custom text 8'
-          description: 'Text to paste when calling platformio-ide-terminal:insert-custom-text-8'
+          description: 'Text to paste when calling night-terminal:insert-custom-text-8'
           type: 'string'
           default: ''

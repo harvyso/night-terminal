@@ -1,0 +1,66 @@
+'context-menu':
+  '.night-terminal .pio-terminal-status-icon': [
+    {label: 'Red', command: 'night-terminal:status-red'},
+    {label: 'Orange', command: 'night-terminal:status-orange'},
+    {label: 'Yellow', command: 'night-terminal:status-yellow'},
+    {label: 'Green', command: 'night-terminal:status-green'},
+    {label: 'Blue', command: 'night-terminal:status-blue'},
+    {label: 'Purple', command: 'night-terminal:status-purple'},
+    {label: 'Pink', command: 'night-terminal:status-pink'},
+    {label: 'Cyan', command: 'night-terminal:status-cyan'},
+    {label: 'Magenta', command: 'night-terminal:status-magenta'},
+    {label: 'Default', command: 'night-terminal:status-default'},
+    {type: 'separator'},
+    {label: 'Hide', command: 'night-terminal:context-hide'},
+    {label: 'Rename', command: 'night-terminal:context-rename'},
+    {label: 'Close', command: 'night-terminal:context-close'}
+  ]
+  '.night-terminal .terminal': [
+    {label: 'Copy', command: 'night-terminal:copy'},
+    {label: 'Paste', command: 'night-terminal:paste'},
+    {type: 'separator'},
+    {label: 'Hide', command: 'night-terminal:hide'},
+    {label: 'Close', command: 'night-terminal:close'}
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'night-terminal'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'night-terminal:toggle'
+        },
+        {
+          'label': 'Focus'
+          'command': 'night-terminal:focus'
+        },
+        {
+          'label': 'New Terminal'
+          'command': 'night-terminal:new'
+        },
+        {
+          'label': 'Previous Terminal'
+          'command': 'night-terminal:prev'
+        },
+        {
+          'label': 'Next Terminal'
+          'command': 'night-terminal:next'
+        },
+        {
+          'label': 'Toggle Fullscreen'
+          'command': 'night-terminal:fullscreen'
+        },
+        {
+          'label': 'Close Terminal'
+          'command': 'night-terminal:close'
+        },
+        {
+          'label': 'Close All Terminals'
+          'command': 'night-terminal:close-all'
+        }
+      ]
+    ]
+  }
+]
