@@ -1,7 +1,7 @@
 {
   "name": "night-terminal",
   "main": "./lib/night-terminal",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A minimalistic, monochrome Atom terminal",
   "author": "Saad Quadri",
   "keywords": [
