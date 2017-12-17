@@ -2,6 +2,10 @@
 
 > A monochrome, minimalistic terminal that goes well with Night UI and Night Syntax.
 
+## Screenshot
+
+![Night Terminal Screenshot](https://i.imgur.com/dwuI268.png)
+
 ## Install
 `apm install night-terminal`
 
